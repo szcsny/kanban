@@ -7,12 +7,12 @@ import Header from './containers/Header'
 export default function App() {
 
   return (
-    <>
-    <Header />
+    <div className="App">
+      <Header />
 
-    <Sidebar />
+      <Sidebar />
 
-    <Board />
-    </>
+      <Board />
+    </div>
   )
 }

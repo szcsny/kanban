@@ -1,0 +1,78 @@
+.Sidebar {
+    position: absolute;
+    width: 70%;
+    padding: 1em 0;
+    top: 5em;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.all-boards-title {
+    margin: 0 0 1rem 1.5rem;
+    color: var(--medium-grey);
+    text-transform: uppercase;
+}
+
+.board-btn {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding-left: 1.5rem;
+    border-radius: 0 2em 2em 0;
+    color: var(--medium-grey);
+}
+
+.selected-board-btn {
+    background-color: var(--dark-purple);
+    color: var(--white);
+}
+
+.new-board-btn {
+    color: var(--dark-purple);
+}
+
+.board-icon {
+    margin-right: .5em;
+}
+
+.theme-settings {
+    background-color: var(--light-grey1);
+    margin: 1rem auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 3rem);
+    height: 3rem;
+    border-radius: 6px;
+}
+
+.toggle-theme-btn {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    margin: 0 1.5em;
+    background-color: var(--dark-purple);
+    border-radius: 2rem;
+}
+
+.toggler {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: var(--white);
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    transition: all .1s ease-out;
+}
+
+.light-stance {
+    left: 3px;
+}
+
+.dark-stance {
+    left: calc(100% - 17px);
+}
