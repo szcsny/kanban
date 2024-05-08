@@ -34,3 +34,36 @@
 * {
   box-sizing: border-box;
 }
+
+/* TYPOGRAPHY */
+
+body {
+  margin: 0;
+  font-family: var(--main-font);
+}
+
+h1 {
+  font-size: var(--h1-size);
+  line-height: var(--h1-line);
+}
+
+h2 {
+  font-size: var(--h2-size);
+  line-height: var(--h2-line);
+}
+
+h3 {
+  font-size: var(--h3-size);
+  line-height: var(--h3-line);
+}
+
+h4 {
+  font-size: var(--h4-size);
+  line-height: var(--h4-line);
+  letter-spacing: var(--h4-spacing);
+}
+
+p {
+  font-size: var(--p-size);
+  line-height: var(--p-line);
+}
