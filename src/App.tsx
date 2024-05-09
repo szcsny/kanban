@@ -10,8 +10,6 @@ export default function App() {
     <div className="App">
       <Header />
 
-      <Sidebar />
-
       <Board />
     </div>
   )
