@@ -68,6 +68,14 @@ p {
   line-height: var(--p-line);
 }
 
-button {
+/* COMMON STYLES */
+
+.button {
+  padding: 1em 1em;
+  background-color: var(--dark-purple);
+  color: var(--white);
+  border-radius: 2em;
+  font-family: var(--main-font);
+  border: none;
   cursor: pointer;
 }

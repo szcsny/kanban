@@ -1,0 +1,15 @@
+.Ticket {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--white);
+    box-shadow: 1px 5px 10px var(--light-grey2);
+}
+
+.ticket-name {
+    font-size: var(--h3-size);
+}
+
+.ticket-completion {
+    color: var(--medium-grey);
+}

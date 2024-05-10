@@ -1,13 +1,15 @@
 .Sidebar {
     position: absolute;
     width: 70%;
+    max-width: 500px;
     padding: 1em 0;
     top: 5em;
     left: 50%;
     transform: translateX(-50%);
 
     border-radius: 10px;
-    border: 1px solid red;
+    background-color: var(--white);
+    z-index: 10;
 }
 
 .all-boards-title {
@@ -20,6 +22,7 @@
     display: flex;
     align-items: center;
     width: 90%;
+    max-width: 300px;
     padding-left: 1.5rem;
     border-radius: 0 2em 2em 0;
     color: var(--medium-grey);

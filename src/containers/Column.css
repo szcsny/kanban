@@ -1,0 +1,8 @@
+.Column {
+    margin-right: 2em;
+}
+
+.column-name {
+    color: var(--medium-grey);
+    text-transform: uppercase;
+}
